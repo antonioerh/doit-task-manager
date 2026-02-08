@@ -1,4 +1,4 @@
-# Doit - Task Management Application
+## Doit - Task Management Application
 #### Video Demo: <https://youtu.be/WwoOwium5dA?si=Kk1cY447ELKyypoK>
 #### Description:
 "Doit" is a web-based task management application built to help users organize their daily lives efficiently. The project uses Python (Flask) and SQLite for the backend, with HTML, CSS, JavaScript, and Bootstrap handling the frontend.
