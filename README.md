@@ -1,4 +1,4 @@
-# Doit
+# Doit (Final Project) — CS50x
 A task management web application built as a final project for [CS50x: Introduction to Computer Science](https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science)
 
 ## Description:
