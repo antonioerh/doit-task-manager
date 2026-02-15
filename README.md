@@ -65,7 +65,7 @@ While the application is fully functional, there are several features I would lo
 
 1. Make sure you have Python 3 installed.
 
-2. Clone this repository and navigate into the project directory.
+2. Clone this repository and navigate to the project directory.
 
 3. Create and activate a virtual environment:
    ```bash
@@ -73,7 +73,7 @@ While the application is fully functional, there are several features I would lo
    source venv/bin/activate
    ```
 
-4. Install dependencies:
+4. Install the dependencies:
    ```bash
    pip install -r requirements.txt
    ```
