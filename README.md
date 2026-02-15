@@ -80,7 +80,7 @@ While the application is fully functional, there are several features I would lo
    
 5. Run the development server:
    ```bash
-   flask run --debug
+   flask run
    ```
    
 6. Open your browser and go to:
