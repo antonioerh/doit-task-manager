@@ -6,6 +6,15 @@ A task management web application built as a final project for [CS50x: Introduct
 
 I chose this project because it presented a manageable challenge, allowing me to focus on consolidating the core technologies learned during CS50. My goal was to bridge the gap between server-side logic and user interface design without being overwhelmed by entirely unfamiliar tools.
 
+## Built with
+- ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+- ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
+- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+- ![CSS](https://img.shields.io/badge/css-%23663399.svg?style=for-the-badge&logo=css&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+- ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+- ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+
 ## Features & User Flow
 When a user first visits the website, they are automatically redirected to the **Login page**. I designed this page to be as flexible as possible: the form accepts either a **username or an email** in the primary field, improving user experience. Underneath the sign-in button, a link to the **Register page** ensures new users don't feel lost.
 
