@@ -20,8 +20,11 @@ The Register page requires four inputs: Email, Username, Password, and Password 
 
 Inside the application, the workflow is divided into tabs accessible via a sidebar:
 1.  **Tasks (Home):** Displays a table of ongoing tasks with their title, description, and due date. Users can mark tasks as completed using a check circle button.
+
 2.  **New Task:** A form to create tasks with a Title, Description (optional), and a generic date picker for the Due Date.
+   
 3.  **Completed:** A history log displaying all finished tasks with their title, description and date of completion.
+   
 4.  **Account:** A dropdown menu offering:
     * **Profile Details:** View/Edit email, username, birth date, and password. **Security Feature:** All profile changes require the current password to be saved.
     * **Logout:** Ends the session.
@@ -42,27 +45,17 @@ While the application is fully functional, there are several features I would lo
 
 ## File Structure
 - `app.py`: The main controller of the application. It initializes the Flask app, configures the SQLite database, and contains all the route definitions (`/completed`, `/login`, `/register`, `/new`, `/profile`, `/`) and the logic for handling POST/GET requests.
-  
 - `app.db`: The SQLite database file containing tables for `users` and `tasks`.
-  
 - `requirements.txt`: Lists all Python libraries required to run the project.
-  
 - `static/`: Contains static assets.
     - `styles.css`: Custom CSS to override Bootstrap defaults and style the sidebar/tables.
-      
     - `script.js`: Frontend logic for UI interactions.
-      
 - `templates/`: Contains the HTML Jinja2 templates.
     - `completed.html`: The view for completed tasks.
-      
     - `layout.html`: The base template containing the sidebar and flash messages.
-      
     - `login.html` & `register.html`: Auth pages.
-      
     - `new.html`: The form to create new tasks.
-
     - `profile.html`: The user settings page.
-      
     - `tasks.html`: The main dashboard for active tasks.
 
 ## How to Run
