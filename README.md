@@ -1,10 +1,8 @@
-# Doit (Final Project) — CS50x
-A task management web application I built as a final project for [CS50x: Introduction to Computer Science](https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science)
+# Doit
+A task management web application.
 
 ## Description:
-"Doit" is a web-based task management application built to help users organize their daily lives efficiently. The project uses Python (Flask) and SQLite for the backend, with HTML, CSS, JavaScript, and Bootstrap handling the frontend.
-
-I chose this project because it presented a manageable challenge, allowing me to focus on consolidating the core technologies learned during CS50. My goal was to bridge the gap between server-side logic and user interface design without being overwhelmed by entirely unfamiliar tools.
+"Doit" is a web-based task management application I built to help users organize their daily lives efficiently. The project uses Python (Flask) and SQLite for the backend, with HTML, CSS, JavaScript, and Bootstrap handling the frontend.
 
 ## Built with
 - ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -29,15 +27,12 @@ Inside the application, the workflow is divided into tabs accessible via a sideb
     * **Logout:** Ends the session.
 
 ## Distinctiveness and Complexity
-This project satisfies the distinctiveness and complexity requirements of CS50 in several ways. Unlike the standard "Finance" problem set, "Doit" implements a more robust user authentication system and complex database relationships regarding task status and history.
-
 * **Authentication Logic:** The login system is polymorphic, accepting either an email or a username, requiring a custom SQL query to check both fields in the database.
 * **Security:** The profile update section implements an extra layer of security. It does not simply update the database; it verifies the user's current password hash before committing any changes to sensitive data (like email or username).
 * **Database Design:** The SQLite database tracks not just task content, but states (ongoing vs. completed) and timestamps for creation and completion, allowing for the separation of "active" and "history" views.
 * **Frontend Logic:** The application uses a simple and modern design (via Bootstrap) and manages dynamic routing to ensure users cannot access internal pages without a valid session.
 
 ## Future Improvements
-
 While the application is fully functional, there are several features I would love to implement in a future version (v2.0):
 
 * **Email Notifications:** Adding the features to send automated emails to users 24 hours before a task is due, and implementing a "Forgot Password" feature to allow users to recover their accounts via a secure email link if they cannot log in.
@@ -47,17 +42,27 @@ While the application is fully functional, there are several features I would lo
 
 ## File Structure
 - `app.py`: The main controller of the application. It initializes the Flask app, configures the SQLite database, and contains all the route definitions (`/completed`, `/login`, `/register`, `/new`, `/profile`, `/`) and the logic for handling POST/GET requests.
+  
 - `app.db`: The SQLite database file containing tables for `users` and `tasks`.
+  
 - `requirements.txt`: Lists all Python libraries required to run the project.
+  
 - `static/`: Contains static assets.
     - `styles.css`: Custom CSS to override Bootstrap defaults and style the sidebar/tables.
+      
     - `script.js`: Frontend logic for UI interactions.
+      
 - `templates/`: Contains the HTML Jinja2 templates.
     - `completed.html`: The view for completed tasks.
+      
     - `layout.html`: The base template containing the sidebar and flash messages.
+      
     - `login.html` & `register.html`: Auth pages.
+      
     - `new.html`: The form to create new tasks.
+
     - `profile.html`: The user settings page.
+      
     - `tasks.html`: The main dashboard for active tasks.
 
 ## How to Run
@@ -87,4 +92,3 @@ While the application is fully functional, there are several features I would lo
    ```
    http://127.0.0.1:5000
    ```
-
