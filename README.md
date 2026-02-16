@@ -1,5 +1,5 @@
 # Doit (Final Project) — CS50x
-A task management web application built as a final project for [CS50x: Introduction to Computer Science](https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science)
+A task management web application I built as a final project for [CS50x: Introduction to Computer Science](https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science)
 
 ## Description:
 "Doit" is a web-based task management application built to help users organize their daily lives efficiently. The project uses Python (Flask) and SQLite for the backend, with HTML, CSS, JavaScript, and Bootstrap handling the frontend.
