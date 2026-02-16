@@ -19,10 +19,10 @@ When a user first visits the website, they are automatically redirected to the *
 The Register page requires four inputs: Email, Username, Password, and Password Confirmation. Upon successful registration, the user is redirected to the main dashboard.
 
 Inside the application, the workflow is divided into tabs accessible via a sidebar:
-1.  **Tasks (Home):** Displays a table of ongoing tasks with their title, description, and due date. Users can mark tasks as completed using a check circle button.
-2.  **New Task:** A form to create tasks with a Title, Description (optional), and a generic date picker for the Due Date.
-3.  **Completed:** A history log displaying all finished tasks with their title, description and date of completion.
-4.  **Account:** A dropdown menu offering:
+*  **Tasks (Home):** Displays a table of ongoing tasks with their title, description, and due date. Users can mark tasks as completed using a check circle button.
+*  **New Task:** A form to create tasks with a Title, Description (optional), and a generic date picker for the Due Date.
+*  **Completed:** A history log displaying all finished tasks with their title, description and date of completion.
+*  **Account:** A dropdown menu offering:
     * **Profile Details:** View/Edit email, username, birth date, and password. **Security Feature:** All profile changes require the current password to be saved.
     * **Logout:** Ends the session.
 
