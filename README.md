@@ -22,9 +22,13 @@ Doit is a web-based task management application that allows users to create, tra
 
 ## File Structure
 ├── static/          # CSS, JavaScript, Assets
+
 ├── templates/       # HTML Templates (Jinja2)
+
 ├── app.py           # Application entry point & Routes
+
 ├── app.db           # SQLite Database
+
 └── requirements.txt # Project dependencies
 
 ## How to Run
