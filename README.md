@@ -2,7 +2,7 @@
 A task management web application.
 
 ## Description:
-"Doit" is a web-based task management application I built to help users organize their daily lives efficiently.
+Doit is a web-based task management application that allows users to create, track, and complete their daily tasks efficiently.
 
 ## Built with
 - ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -14,7 +14,7 @@ A task management web application.
 - ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 ## Features & User Flow
-When a user first visits the website, they are automatically redirected to the **Login page**. I designed this page to be as flexible as possible: the form accepts either a **username or an email** in the primary field, improving user experience. Underneath the sign-in button, a link to the **Register page** ensures new users don't feel lost.
+When a user first visits the website, they are automatically redirected to the **Login page**. This page was designed to be as flexible as possible: the form accepts either a **username or an email** in the primary field, improving user experience. Underneath the sign-in button, a link to the **Register page** ensures new users don't feel lost.
 
 The Register page requires four inputs: Email, Username, Password, and Password Confirmation. Upon successful registration, the user is redirected to the main dashboard.
 
