@@ -23,15 +23,11 @@ Doit is a web-based task management application that allows users to create, tra
 ## File Structure
 ```text
 doit-task-manager/
-├── app.py           # Application entry point
-├── app.db           # SQLite database (Local only)
-├── requirements.txt # Dependencies
 ├── static/          # CSS, JS, Images
-│   ├── styles.css
-│   └── script.js
-└── templates/       # HTML files
-    ├── layout.html
-    └── ...
+├── templates/       # HTML Templates (Jinja2)
+├── app.py           # Application entry point & Routes
+├── app.db           # SQLite database (Local only)
+└── requirements.txt # Project dependencies
 ```
 
 ## How to Run
