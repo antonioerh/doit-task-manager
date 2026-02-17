@@ -21,13 +21,16 @@ Doit is a web-based task management application that allows users to create, tra
 * **Responsive Forms:** Clean interfaces for task creation and registration using generic date pickers and validation.
 
 ## File Structure
-├── static/          # CSS, JavaScript, Assets
-
-├── templates/       # HTML Templates (Jinja2)
-
-├── app.py           # Application entry point & Routes
-
-├── app.db           # SQLite Database
+doit-task-manager/
+├── app.py           # Application entry point
+├── app.db           # SQLite database
+├── requirements.txt # Dependencies
+├── static/          # CSS, JS, Images
+│   ├── css/
+│   └── js/
+└── templates/       # HTML files
+    ├── layout.html
+    └── ...
 
 └── requirements.txt # Project dependencies
 
