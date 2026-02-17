@@ -2,7 +2,7 @@
 A task management web application.
 
 ## Description:
-"Doit" is a web-based task management application I built to help users organize their daily lives efficiently. The project uses Python (Flask) and SQLite for the backend, with HTML, CSS, JavaScript, and Bootstrap handling the frontend.
+"Doit" is a web-based task management application I built to help users organize their daily lives efficiently.
 
 ## Built with
 - ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
