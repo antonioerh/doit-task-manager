@@ -23,7 +23,10 @@ def init_db():
     with sqlite3.connect(db_path) as conn:
         with open("schema.sql") as f:
             conn.executescript(f.read())
-init_db()
+
+# Check if database path exists already
+if not os.path.exists(db_path):
+    init_db()
 
 # Configure SQLite3 to access database
 conn = sqlite3.connect(db_path, isolation_level=None, check_same_thread=False)
