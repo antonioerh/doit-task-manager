@@ -42,4 +42,8 @@ body {
   flex-direction: column;
 }
 
-
+.nav-link:hover {
+  color: black;
+  background-color: #F1F1F1;
+  border-radius: 10px;
+}

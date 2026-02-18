@@ -29,14 +29,14 @@
                     </div>
                     
                     <ul class="nav nav-pills flex-column">
-                        <li class="nav-item my-1">
-                            <a class="nav-link border-bottom border-secondary-subtle {% if active_page=='tasks' %}active{% endif %}" href="/"><i class="bi bi-clipboard fs-5 me-2"></i>Tasks</a>
+                        <li class="nav-item mb-1">
+                            <a class="nav-link {% if active_page=='tasks' %}active{% endif %}" href="/"><i class="bi bi-clipboard fs-5 me-2"></i>Tasks</a>
                         </li>
-                        <li class="nav-item my-1">
-                            <a class="nav-link border-bottom border-secondary-subtle {% if active_page=='completed' %}active{% endif %}" href="/completed"><i class="bi bi-clipboard-check fs-5 me-2"></i>Completed</a>
+                        <li class="nav-item mb-1">
+                            <a class="nav-link {% if active_page=='completed' %}active{% endif %}" href="/completed"><i class="bi bi-clipboard-check fs-5 me-2"></i>Completed</a>
                         </li>
-                        <li class="nav-item my-1">
-                            <a class="nav-link border-bottom border-secondary-subtle {% if active_page=='new' %}active{% endif %}" href="/new"><i class="bi bi-clipboard-plus fs-5 me-2"></i>New task</a>
+                        <li class="nav-item mb-1">
+                            <a class="nav-link {% if active_page=='new' %}active{% endif %}" href="/new"><i class="bi bi-clipboard-plus fs-5 me-2"></i>New task</a>
                         </li>
                     </ul>    
                     
@@ -105,13 +105,13 @@
                 <div class="offcanvas-body">
                     <p class="text-muted small mb-2">Scroll down to see all options</p>
                     <ul class="nav nav-pills flex-column">
-                        <li class="nav-item my-1">
+                        <li class="nav-item mb-1">
                             <a class="nav-link {% if active_page=='tasks' %}active{% endif %}" href="/"><i class="bi bi-clipboard fs-5 me-2"></i>Tasks</a>
                         </li>
-                        <li class="nav-item my-1">
+                        <li class="nav-item mb-1">
                             <a class="nav-link {% if active_page=='completed' %}active{% endif %}" href="/completed"><i class="bi bi-clipboard-check fs-5 me-2"></i>Completed</a>
                         </li>
-                        <li class="nav-item my-1">
+                        <li class="nav-item mb-1">
                             <a class="nav-link {% if active_page=='new' %}active{% endif %}" href="/new"><i class="bi bi-clipboard-plus fs-5 me-2"></i>New task</a>
                         </li>
                     </ul>    
